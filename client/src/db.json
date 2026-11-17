@@ -1,0 +1,364 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Jane Doe",
+      "email": "jane@gmail.com",
+      "password": "Password@123",
+      "masterResume": "Experienced Frontend Developer skilled in React, Redux Toolkit, TypeScript, and Node.js."
+    },
+    {
+      "name": "Shivam",
+      "email": "shivam@yopmail.com",
+      "password": "Shivamrai17@",
+      "masterResume": "",
+      "createdAt": "2026-10-14T09:37:20.402Z",
+      "id": "L0RmMgQpgsI"
+    },
+    {
+      "name": "Priyank",
+      "email": "priyank@yopmail.com",
+      "password": "Password1!",
+      "masterResume": "",
+      "createdAt": "2026-10-16T10:44:17.621Z",
+      "id": "_IkW-MfiCCc"
+    }
+  ],
+  "applications": [
+    {
+      "id": "1",
+      "company": "Northwind Labs",
+      "role": "Frontend Developer",
+      "location": "Remote",
+      "jobUrl": "https://www.northwind.labs/careers/frontend",
+      "source": "LinkedIn",
+      "status": "Accepted",
+      "appliedDate": "2023-04-11",
+      "jobDescription": "We are seeking a talented Frontend Developer to create responsive and intuitive user interfaces. You will collaborate closely with product designers and backend engineers.",
+      "notes": [
+        {
+          "id": "n1",
+          "text": "Initial phone screen went well, team seems great.",
+          "createdAt": "Apr 18, 2023 10:30 AM"
+        },
+        {
+          "id": "n2",
+          "text": "Tech team liked my portfolio. Technical round scheduled.",
+          "createdAt": "Apr 20, 2023 3:15 PM"
+        }
+      ],
+      "interviews": [
+        {
+          "id": "i1",
+          "type": "Phone screen",
+          "scheduledAt": "Apr 18, 2023"
+        },
+        {
+          "id": "i2",
+          "type": "Technical round",
+          "scheduledAt": "Apr 22, 2023"
+        }
+      ],
+      "history": [
+        {
+          "status": "Wishlist",
+          "at": "Mar 30, 2023"
+        },
+        {
+          "status": "Applied",
+          "at": "Apr 11, 2023"
+        },
+        {
+          "status": "Screening",
+          "at": "Apr 13, 2023"
+        },
+        {
+          "status": "Interview",
+          "at": "Apr 18 - current"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Brightloop",
+      "role": "Product Designer",
+      "location": "Washington",
+      "jobUrl": "https://brightloop.io/jobs",
+      "source": "Referral",
+      "status": "Offer",
+      "appliedDate": "2023-04-11",
+      "jobDescription": "Looking for a Product Designer to lead our core SaaS workflow.",
+      "notes": [],
+      "interviews": [
+        {
+          "id": "i3",
+          "type": "On-site",
+          "scheduledAt": "Oct 28, 2023"
+        }
+      ],
+      "history": [
+        {
+          "status": "Wishlist",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Applied",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Screening",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Offer",
+          "at": "Oct 19, 2026"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "company": "Acme Systems",
+      "role": "Product Manager",
+      "location": "London",
+      "jobUrl": "https://acmesystems.com/careers",
+      "source": "Careers Page",
+      "status": "Rejected",
+      "appliedDate": "2023-04-11",
+      "jobDescription": "Manage enterprise cloud products from conception to launch.",
+      "notes": [],
+      "interviews": [
+        {
+          "id": "i4",
+          "type": "Technical",
+          "scheduledAt": "Oct 27, 2023"
+        }
+      ],
+      "history": [
+        {
+          "status": "Applied",
+          "at": "Apr 10, 2023"
+        },
+        {
+          "status": "Screening",
+          "at": "Apr 11, 2023"
+        },
+        {
+          "status": "Offer",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Interview",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Interview",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Offer",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Accepted",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Applied",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Applied",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Screening",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Offer",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Offer",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Accepted",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Rejected",
+          "at": "Oct 19, 2026"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "company": "Lumen Works",
+      "role": "Full Stack Engineer",
+      "location": "New York",
+      "jobUrl": "https://lumenworks.dev/jobs",
+      "source": "LinkedIn",
+      "status": "Interview",
+      "appliedDate": "2023-04-11",
+      "jobDescription": "Node.js and React engineer needed for greenfield analytics platform.",
+      "notes": [],
+      "interviews": [
+        {
+          "id": "i5",
+          "type": "Phone screen",
+          "scheduledAt": "Nov 2, 2023"
+        }
+      ],
+      "history": [
+        {
+          "status": "Applied",
+          "at": "Apr 05, 2023"
+        },
+        {
+          "status": "Interview",
+          "at": "Apr 11, 2023"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "company": "Pixelforge",
+      "role": "UI Engineer",
+      "location": "New York",
+      "jobUrl": "https://pixelforge.studio/apply",
+      "source": "LinkedIn",
+      "status": "Offer",
+      "appliedDate": "2023-04-11",
+      "jobDescription": "Design systems specialist with strong CSS and React skills.",
+      "notes": [],
+      "interviews": [],
+      "history": [
+        {
+          "status": "Applied",
+          "at": "Apr 01, 2023"
+        },
+        {
+          "status": "Offer",
+          "at": "Apr 11, 2023"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "company": "Cloudnest",
+      "role": "Backend Developer",
+      "location": "Remote",
+      "jobUrl": "https://cloudnest.io/careers",
+      "source": "Careers Page",
+      "status": "Rejected",
+      "appliedDate": "2023-04-11",
+      "jobDescription": "Distributed systems and MongoDB specialist.",
+      "notes": [],
+      "interviews": [],
+      "history": [
+        {
+          "status": "Applied",
+          "at": "Apr 02, 2023"
+        },
+        {
+          "status": "Rejected",
+          "at": "Apr 11, 2023"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "company": "Orbit Studio",
+      "role": "Engineering Manager",
+      "location": "New York",
+      "jobUrl": "https://orbit.studio/jobs",
+      "source": "LinkedIn",
+      "status": "Wishlist",
+      "appliedDate": "2023-01-12",
+      "jobDescription": "Lead a squad of 8 full-stack developers.",
+      "notes": [],
+      "interviews": [],
+      "history": [
+        {
+          "status": "Wishlist",
+          "at": "Jan 12, 2023"
+        }
+      ]
+    },
+    {
+      "company": "hi labs",
+      "role": "sde 2",
+      "location": "remote",
+      "status": "Accepted",
+      "jobUrl": "http://hilabs.com",
+      "source": "linkdin",
+      "appliedDate": "2026-10-19",
+      "jobDescription": "full stack engineer for the role of software developer.",
+      "notes": [],
+      "interviews": [],
+      "history": [
+        {
+          "status": "Applied",
+          "at": "Oct 19, 2026"
+        },
+        {
+          "status": "Screening",
+          "at": "Oct 20, 2026"
+        },
+        {
+          "status": "Offer",
+          "at": "Oct 20, 2026"
+        },
+        {
+          "status": "Accepted",
+          "at": "Oct 20, 2026"
+        }
+      ],
+      "id": "09hAoDZtw8M"
+    }
+  ],
+  "stats": {
+    "counts": {
+      "Applied": 24,
+      "Interviewing": 6,
+      "Offers": 2,
+      "Rejected": 5
+    },
+    "weekly": [
+      {
+        "week": "1",
+        "count": 6
+      },
+      {
+        "week": "2",
+        "count": 9
+      },
+      {
+        "week": "3",
+        "count": 7
+      },
+      {
+        "week": "4",
+        "count": 11
+      },
+      {
+        "week": "5",
+        "count": 13
+      },
+      {
+        "week": "6",
+        "count": 15
+      },
+      {
+        "week": "7",
+        "count": 12
+      },
+      {
+        "week": "8",
+        "count": 19
+      }
+    ]
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
